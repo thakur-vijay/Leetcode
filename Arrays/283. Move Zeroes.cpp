@@ -43,7 +43,7 @@ void moveZeroes(vector<int> &nums)
 
 int main()
 {
-    vector<int> nums = {0, 1};
+    vector<int> nums = {5, 1, 3};
     moveZeroes(nums);
     for (int v : nums)
     {
